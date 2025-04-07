@@ -10,3 +10,4 @@
 
 
 SELECT COUNT(station_id) FROM stations;
+SELECT COUNT(DISTINCT station_id) FROM stations;
